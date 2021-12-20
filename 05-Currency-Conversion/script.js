@@ -17,9 +17,9 @@ console.log(convertToBRL(1));
 
 
 function convertToCurrency(currency,euro) {
-     if (currency= "brl") {
+     if (currency=== "brl") {
         return convertToBRL(euro);
-    } else if (currency= "dollar") {
+    } else if (currency=== "dollar") {
         return convertToUSD(euro);
      }else {
         return euro;
